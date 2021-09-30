@@ -1,0 +1,60 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+{/* <svg width="300" height="300" viewBox="0 0 200 200">
+                
+            <g transform="translate(100,100)" >
+            
+                <path d="M0 0-70 70A99 99 0 0 1-70-70Z" fill="pink"/>
+                <path d="M0 0-70 70A99 99 0 0 1-70-70Z" fill="purple"/>
+                <path d="M0 0-70-70A99 99 0 0 1 70-70Z" fill="#080"/>
+                <path d="M0 0 70-70A99 99 0 0 1 70 70Z" fill="#dd0"/>
+                <path d="M0 0 70 70A99 99 0 0 1-70 70Z" fill="#000"/>
+
+                <path d="M0 0-50 50A69 69 0 0 1 50-50Z" fill="#fff" text="yes"/>
+                <path d="M0 0 50-50A69 69 0 0 1-50 50Z" fill="#fff"/>
+            </g>
+            </svg> */}
+
+
+            <circle cx="50%" cy="50%" r="25%" strokeDashoffset="284%" stroke="red"/>
+            <circle cx="50%" cy="50%" r="25%" strokeDashoffset="318%" stroke="blue"/>
+            <circle cx="50%" cy="50%" r="25%" strokeDashoffset="352%" stroke="yellow"/>
+            <circle cx="50%" cy="50%" r="25%" strokeDashoffset="376%" stroke="green"/>
+            <circle cx="50%" cy="50%" r="25%" strokeDashoffset="390%" stroke="magenta"/>
+
+            {/* <svg xmlns="http://www.w3.org/2000/svg" strokeWidth="8%" fill="none" strokeDasharray="100%">
+                <circle cx="50%" cy="50%" r="25%" stroke={c2[0]}/>
+                {obj1.map((data,index) => 
+                    <circle cx="50%" cy="50%" r="25%" strokeDashoffset={percent[index+1]} stroke={c2[index+1]}/>
+                    
+                    )
+                }
+                </svg> */}
+
+                99.99999999999999
+Pie.js:24 47.83008942661756
+Pie.js:24 19.364807995791686
+Pie.js:24 4.201735928458707
+Pie.js:24 0.9139926354550236
